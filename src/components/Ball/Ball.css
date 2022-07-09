@@ -1,0 +1,31 @@
+.Ball {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: linear-gradient(77.49deg, #515a7e 0.52%, #8392bf 83.61%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Ball:after {
+  content: "?";
+  display: block;
+  font-size: 200px;
+  color: #fff;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Ball {
+    animation: Ball-spin infinite 5s linear;
+  }
+}
+
+@keyframes Ball-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
