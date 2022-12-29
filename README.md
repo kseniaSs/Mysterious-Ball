@@ -1,23 +1,22 @@
-# Шар-предсказатель
+# Orb-fortune teller
 
-Это таинственное приложение, позволяет вам узнать ответ на ваш вопрос.
+This mysterious application allows you to find out the answer to your question.
 
-## Использование
+## Usage
 
-Для того, чтобы узнать ответ
+To know the answer
 
-1. Запустите приложение с помощью инструкции ниже
-2. Задайте вслух ваш вопрос и ожидайте ответа
+1. Run the application using the instructions below
+2. Ask aloud your question and expect an answer
 
-Данный шар является секретной разработкой, в открытом доступе урезанная версия, поэтому шар может отвечать только
+This ball is a secret development, a truncated version is in the public domain, so the ball can only answer
 
-- Да
-- Нет
-- Возможно
-- Спросите еще раз
+- Yes
+- No
+- Maybe
+- Ask again
 
-## Запуск
-
+## Run
 In the project directory, you can run:
 
 ### `npm start`
