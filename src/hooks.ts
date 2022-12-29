@@ -6,9 +6,9 @@ type QuestionHook = () => {
   answer: Answer | ""
 }
 
-export type Answer = "Да" | "Нет" | "Возможно" | "Спросите еще раз"
+export type Answer = "Yes" | "No" | "Maybe" | "Ask again"
 
-const severalAnswer: Array<Answer> = ["Да", "Нет", "Возможно", "Спросите еще раз"]
+const severalAnswer: Array<Answer> = ["Yes", "No", "Maybe", "Ask again"]
 
 const useQuestionHook: QuestionHook = () => {
   const [processAnswer, setProcessAnswer] = useState<boolean>(false)
